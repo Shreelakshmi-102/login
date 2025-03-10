@@ -1,0 +1,614 @@
+/* Whole page  */
+.container {
+    height: 627px;
+    width: 899px;
+    position: relative;
+    top: 40px;
+    left: 271px;
+    border: 1px solid #CDCDCD;
+    border-radius: 20px;
+    display: flex;
+}
+/* left section */
+.left {
+    background-color: #F0FFF6;
+    width: 404px;
+    height: 586px;
+    border-top-left-radius: 29.06px;
+    border-bottom-left-radius: 29.06px;
+    padding-top: 20.35px;
+    padding-right: 23.25px;
+    padding-bottom: 20.35px;
+    padding-left: 23.25px;
+    gap: 14.53px;
+}
+
+.left img {
+    width: 351.25px;
+    height: 579.74px;
+}
+/* right section */
+.right {
+    width: 495px;
+    height: 627;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 42px;
+    gap: 50px;
+}
+
+.right h3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28.8px;
+    margin-left: 150px;
+    letter-spacing: 0%;
+}
+#x{
+    opacity: 0;
+}
+
+.right h3 span {
+    color: Green;
+}
+/* set 1 - login */
+.login {
+    width: 323px;
+    height: 354.95px;
+    gap: 40px;
+    margin: 0 auto;
+}
+
+.signup {
+    width: 269px;
+    height: 45px;
+    gap: 6px;
+    margin: 0 auto;
+}
+
+.signup h4 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.signup p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0%;
+    margin-top: -20px;
+    color: #4F4F4F;
+}
+#terms{
+    opacity: 0;
+}
+/* set 2 - mobile no*/
+.mobile {
+    width: 323px;
+    height: 61px;
+    gap: 4px;
+    margin-top: 40px;
+}
+
+.mobile p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0%;
+    height: 15px;
+    width: 323px;
+}
+
+.mobile p span {
+    color: #FF0000;
+}
+
+input {
+    width: 240px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1.21px solid #EDEDED;
+    padding: 12px;
+    padding-left: 67px;
+    font-size: 1rem;
+    color: #474747;
+}
+
+.ind{
+    align-items: center;
+    width: 54px;
+    height: 18px;
+    gap: 6px;
+    display: flex;
+    position: relative;
+    top: -33px;
+    left: 10px;
+}
+.ind img {
+    width: 20px;
+    height: 14px;
+    display: block;
+}
+
+.ind p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #181844;
+    margin: 0;
+    margin-top: -5px;
+}
+/* set 3 otp button  */
+.send {
+    width: 323px;
+    height: 61px;
+    gap: 12px;
+    margin-top: 50px;
+}
+
+.send button {
+    width: 323px;
+    height: 34px;
+    border-radius: 6px;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-right: 24px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.text {
+    width: 323px;
+    height: 15px;
+    gap: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+}
+
+.text p {
+    width: 108px;
+    height: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0%;
+    margin: 0;
+}
+
+.text button {
+    width: 32px;
+    height: 15px;
+    gap: 6px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration: underline;
+    font-style: solid;
+    offset: auto;
+    text-decoration-thickness: auto;
+    color: #16A34A;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    margin-top: 0;
+}
+/* set 4 - google / apple */
+.last {
+    width: 323px;
+    height: 67.95px;
+    gap: 12px;
+    margin-top: 100px;
+}
+
+.line {
+    width: 323px;
+    height: 16px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.line hr {
+    width: 126.5px;
+    border: 1px solid #CDCDCD;
+}
+
+.line p {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 54px;
+}
+
+.app {
+    width: 245.29px;
+    height: 39.95px;
+    gap: 12px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.google,.apple {
+    width: 116.65px;
+    height: 20px;
+    gap: 6.71px;
+    border-radius: 22.83px;
+    border: 0.71px solid #8A8A8A;
+    padding-top: 11.41px;
+    padding-right: 22.83px;
+    padding-bottom: 11.41px;
+    padding-left: 22.83px;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 9.99px;
+    line-height: 14.27px;
+    letter-spacing: 0%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.google img{
+    width: 14.27px;
+    height: 14.27px;
+}
+.apple img {
+    width: 16.27px;
+    height: 14.27px;
+}
+#tc{
+    font-family: "Open Sans", sans-serif;
+    font-size: 6px;
+    color: #8A8A8A;
+    margin-top: 100px;
+    margin-left: 170px;
+}
+/* media queries 700px */
+@media (max-width: 700px){
+
+/* Whole page  */
+.container {
+    height: 500px;
+    width: 600px;
+    position: relative;
+    top: 70px;
+    left: 40px;
+}
+/* left section */
+.left {
+    width: 230px;
+    height: 460px;
+}
+
+.left img {
+    width: 240px;
+    height: 450px;
+}
+
+/* right section */
+.right {
+    width: 350px;
+    height: 627;
+    padding: 22px;
+}
+
+.right h3 {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 90px;
+}
+
+/* set 1 - login */
+.login {
+    width: 280px;
+    height: 353px;
+    margin: 0 auto;
+    margin-top: -20px;
+}
+
+.signup {
+    width: 269px;
+    height: 45px;
+    gap: 6px;
+    margin: 0 auto;
+}
+.mobile {
+    width: 280px;
+    height: 61px;
+    gap: 4px;
+    margin-top: 30px;
+}
+
+input {
+    width: 200px;
+    height: 15px;
+    margin-top: -5px;
+    padding-left: 77px;
+    font-size: 0.9rem;
+}
+
+.ind{
+    top: -30px;
+    left: 20px;
+}
+
+.ind img {
+    width: 20px;
+    height: 14px;
+    display: block;
+}
+
+.ind p {
+    margin-left: -20px;
+    margin: 0;
+    margin-top: -5px;
+}
+
+/* set 3 otp button  */
+.send {
+    width: 280px;
+    height: 61px;
+    margin-top: 40px;
+}
+
+.send button {
+    width: 280px;
+   
+    text-align: center;
+}
+
+.text {
+    width: 280px;
+}
+
+.text p {
+    width: 180px;
+}
+
+.text button {
+    width: 32px;
+    height: 15px;
+    margin-left: -70px;
+}
+/* set 4 - google / apple */
+.last {
+    width: 280px;
+    height: 75px;
+    margin-top: 40px;
+}
+
+.line {
+    width: 280px;
+    height: 16px;
+}
+
+.line p {
+    width: 65px;
+}
+
+.app {
+    width: 245.29px;
+    height: 39.95px;
+    gap: 12px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+#tc{
+    margin-top: 25px;
+    margin-left: 100px;
+}
+}
+
+
+
+/* Media query for 390px width */
+@media (max-width: 400px) {
+    body{
+        background-color: rgb(255, 255, 255);
+        overflow-x: hidden;
+    }
+    .container {
+        width: 438px;
+        height: 450px;
+        margin-left: -8px;
+        margin-top:-7px;
+        left: 0;
+        top: 0;
+        border-radius: 0;
+        border: 1px solid #cdcdcd00;
+    }
+
+    .left {
+        display: none;
+    }
+
+    .right {
+        width: 390px;
+        padding: 20px;
+    }
+
+    .right h3 {
+        box-shadow: 1px 2px 5px rgb(227, 231, 232);
+        height: 50px;
+        font-size: 20px;
+        text-align: left;
+        margin-top: 0;
+        margin-left: -20px;
+        width: 100%;
+        padding-top: 15px;
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+
+    #x{
+        opacity: 1;
+        height: 15px;
+        margin-left: 265px;
+    }
+
+    .login {
+        position: absolute;
+        width: 100%;
+        max-width: 392px;
+        height: 330px;
+        top: 117px;
+        left: 24px;
+        gap: 32px;
+        margin-top: 0;
+    }
+    .signup{
+        position: absolute;
+        margin: 0px;
+        margin-top: 0px;
+        height: 50px;
+        width: 392px;
+    }
+    .signup h4{
+        font-size: 16px;
+        margin-top: 0px;
+        text-align: left;
+    }
+    .signup p{
+        text-align: left;
+        font-size: 8px;
+    }
+    #terms{
+        position: absolute;
+        opacity: 1;
+        font-size: 6px;
+        margin-top: -11px;
+    }
+    .mobile {
+        position: absolute;
+        width: 392px;
+        top: 60px;
+    }
+
+    .mobile p {
+        font-size: 8px;
+        margin-top: 0;
+    }
+
+    input {
+        width: 325px;
+        height: 23px;
+        padding: 0px;
+        padding-top: 10px;
+        padding-bottom: 7px;
+        padding-left: 68px;
+        margin-top: -7px;
+        font-size: 13px;
+    }
+
+    .ind {
+        left: 10px;
+        top: -30px;
+    }
+
+    .ind p{
+        font-size: 13px;
+    }
+
+    .send {
+        width: 392px;
+        height: 46px;
+        margin-top: 190px;
+    }
+
+    .send button {
+        width: 392px;
+        height: 28px;
+        font-size: 8px;
+        padding-top: 5px;
+    }
+
+    .text {
+        flex-direction: column;
+        text-align: left;
+        width: 392px;
+        margin-top: 0;
+    }
+
+    .text p{
+        font-size: 8px;
+        margin-left: -200px;
+        margin-top: 5px;
+    }
+    .text button{
+        height: 12px;
+        margin-top: -25px;
+        margin-left: -175px;
+    }
+
+    .last {
+        width: 392px;
+        height: 63px;
+        margin-top: 30px;
+    }
+
+    .line {
+        width: 100%;
+        height: 16px;
+        display: flex;
+        align-items: center;
+    }
+
+    .line hr {
+        width: 200px;
+    }
+
+    .line p{
+        font-size: 6px;
+    }
+
+    .app {
+        width: 220px;
+        height: 40px;
+        margin-top: 10px;
+    }
+
+    .google, .apple {
+        width: 60px;
+        height: 21px;
+        padding-top: 8px;
+        padding-right: 24px;
+        padding-bottom: 8px;
+        padding-left: 24px;
+    }
+    #tc{
+        opacity: 0;
+    }
+}
+
+   
